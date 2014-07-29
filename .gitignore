@@ -31,3 +31,9 @@ stamp-h1
 /jansson_private_config.h
 /build
 *.exe
+
+obj/
+Release/
+Debug/
+*.*sdf
+*.suo

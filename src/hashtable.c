@@ -6,7 +6,7 @@
  */
 
 #if HAVE_CONFIG_H
-#include <jansson_private_config.h>
+#include "jansson_private_config.h"
 #endif
 
 #include <stdlib.h>
@@ -16,7 +16,7 @@
 #include <stdint.h>
 #endif
 
-#include <jansson_config.h>   /* for JSON_INLINE */
+#include "jansson_config.h"   /* for JSON_INLINE */
 #include "jansson_private.h"  /* for container_of() */
 #include "hashtable.h"
 
